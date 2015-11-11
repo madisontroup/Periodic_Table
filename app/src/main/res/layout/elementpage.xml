@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="214dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/penny"
+        android:layout_weight="0.29"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="329dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView2"
+        android:layout_weight="0.43"
+        android:textSize="50dp"
+        android:text="this is where all of the equations will go"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#ffffff" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="189dp"
+        android:layout_height="198dp"
+        android:text="Click here for more information"
+        android:id="@+id/history"
+        android:layout_gravity="right|top"
+        android:textSize="30dp"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:theme="@style/Theme.MyTheme"
+   >
+
+    <SearchView
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchElement"
+        android:layout_gravity="center_horizontal"
+        android:queryHint="Element Search"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="309dp"
+        android:layout_height="565dp"
+        android:text="Go to Next Page"
+        android:id="@+id/next"
+        android:textSize="50dp" />
+
+</LinearLayout>
